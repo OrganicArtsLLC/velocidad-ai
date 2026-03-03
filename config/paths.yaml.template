@@ -1,0 +1,16 @@
+# Velocidad-AI: Path Configuration Template
+#
+# Copy this file to config/paths.yaml and set your learner data directory.
+# config/paths.yaml is gitignored — it stays local to your machine.
+#
+# Your learner data directory must implement the spec in:
+#   docs/LEARNER-DATA-SPEC.md
+#
+# Can be relative (from this repo root) or absolute.
+
+# Examples:
+#   learner_data_dir: "../sibling-repo/velocidad"      # sibling repo (separate private repo)
+#   learner_data_dir: "~/personal/my-spanish-data"      # absolute path
+#   learner_data_dir: "./my-data"                        # subdirectory (gitignored)
+
+learner_data_dir: "../your-life-repo/velocidad"
